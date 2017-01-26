@@ -1,5 +1,6 @@
-# petcarev2
+# PetCareV2
 Android mobile application developed solely by me for my Final-Year Project in Singapore Polytechnic.
+*V2 stands for the version number of this application
 
 I have also uploaded a copy of the project report as the application will not be fully functional (servers have been shut down after the project ended).
 
