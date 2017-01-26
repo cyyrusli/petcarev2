@@ -1,6 +1,8 @@
 # petcarev2
 Android mobile application developed solely by me for my Final-Year Project in Singapore Polytechnic.
 
+I have also uploaded a copy of the project report as the application will not be fully functional (servers have been shut down after the project ended).
+
 The purpose of this project is to create a platform to bridge pet owners / pet owners to-be with various adoption services and also to educate and provide more detailed information on their pets’ healthcare and wellness.
 
 We have conducted a public survey, mostly targeting pet owners and pet lovers, ages ranging from as 16 to 60, in Singapore during our first assessment and the positive results received affirmed our decision to design and implement an application like this for our final year project.
