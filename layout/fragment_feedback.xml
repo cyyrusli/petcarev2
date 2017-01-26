@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:text="                                                                Name: "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="                                                                Contact Number: "
+        android:padding="5dp"
+        android:layout_alignTop="@+id/contact"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:text="Feedback: "
+        android:layout_alignTop="@+id/feedback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/contact"
+        android:layout_below="@+id/textView9"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/feedback"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:background="@drawable/feedbacksbmbtn"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/feedback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/disclaimer"
+        android:text="Disclaimer"
+        android:textColor="#424FFF"
+        android:layout_width ="100dp"
+        android:layout_height = "30dp"
+        android:background="@drawable/disclaimerbtn"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>
